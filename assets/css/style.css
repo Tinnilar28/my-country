@@ -1,0 +1,56 @@
+img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.box-wrapper{
+    display: flex;  /* အလျားလိုက်တန်းစီချင်တဲ့အခါရေး */
+    justify-content:space-around;
+}
+
+.box{
+    width:30%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.tourist-site{
+    background-color: rgb(77, 100, 121);
+}
+
+.capital{
+    background-color: rgb(136, 183, 136);
+}
+
+.famous-person{
+    background-color: antiquewhite;
+}
+
+.ethnic-group{
+    background-color: aqua;
+}
+
+.culture{
+    background-color: cadetblue;
+}
+
+.population{
+    background-color: blueviolet;
+}
+
+.currency{
+    background-color: bisque;
+}
+
+.language{
+    background-color: blue;
+}
+
+
