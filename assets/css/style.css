@@ -3,9 +3,24 @@ img{
     width: 100%;
 }
 
+h2{
+    text-align: center;        
+}
+
+header{
+    /* background-image: url("assets/img/Bagan.jpg"); */
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.bg-image{
+    background-image:url(./assets/img/Bagan.jpg);
+}
+
 .box-wrapper{
     display: flex;  /* အလျားလိုက်တန်းစီချင်တဲ့အခါရေး */
     justify-content:space-around;
+    align-items: stretch;
 }
 
 .box{
@@ -13,44 +28,8 @@ img{
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
-}
-
-h1{
-    font-style: italic;
-    text-align: center;
-    
-}
-
-.tourist-site{
-    background-color: rgb(77, 100, 121);
-}
-
-.capital{
-    background-color: rgb(136, 183, 136);
-}
-
-.famous-person{
-    background-color: antiquewhite;
-}
-
-.ethnic-group{
-    background-color: aqua;
-}
-
-.culture{
-    background-color: cadetblue;
-}
-
-.population{
-    background-color: blueviolet;
-}
-
-.currency{
-    background-color: bisque;
-}
-
-.language{
-    background-color: blue;
+    box-shadow: 10px 5px 5px gray;
+    border: 1px solid whitesmoke;
 }
 
 
