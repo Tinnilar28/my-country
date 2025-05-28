@@ -1,35 +1,84 @@
-img{
+ul{
+    text-align: left;
+}
+
+img {
     max-width: 100%;
     width: 100%;
 }
 
-h2{
-    text-align: center;        
-}
-
-header{
-    /* background-image: url("assets/img/Bagan.jpg"); */
+header {
     font-family: sans-serif;
     text-align: center;
 }
 
-.bg-image{
-    background-image:url(../assets/img/Bagan.jpg);
+.center {
+    text-align: center;
 }
 
-.box-wrapper{
-    display: flex;  /* အလျားလိုက်တန်းစီချင်တဲ့အခါရေး */
-    justify-content:space-around;
+.px-20 {
+    padding: 0 20px;
+}
+
+.py-60 {
+    padding: 60px 0;
+}
+
+.bg-image {
+    background-image: url(../assets/img/Bagan.jpg);
+}
+
+.box-wrapper {
+    display: flex;
+    /* အလျားလိုက်တန်းစီချင်တဲ့အခါရေး */
+    justify-content: space-around;
     align-items: stretch;
+    gap: 20px;
 }
 
-.box{
-    width:30%;
+.box {
+    flex: 1;
     padding: 10px;
     box-sizing: border-box;
-    text-align: center;
     box-shadow: 10px 5px 5px gray;
     border: 1px solid whitesmoke;
+    background-color: white;
 }
 
+.box img {
+    width: 100%;
+    object-fit: cover;
+}
 
+.about-myanmar {
+    background-color: bisque;
+}
+
+.tourist-attraction {
+    background-color: lightblue;
+}
+
+.famous-food {
+    background-color: rgb(238, 238, 238);
+}
+
+.famous-people {
+    background-color: lightsalmon;
+}
+
+.culture {
+    background-color: bisque;
+}
+
+.currency, .language {
+    display: flex;
+}
+
+.currency img, .language img {
+    width: 30%;
+}
+
+.currency .text, .language .text {
+    width: 70%;
+    padding: 0 20px;
+}
